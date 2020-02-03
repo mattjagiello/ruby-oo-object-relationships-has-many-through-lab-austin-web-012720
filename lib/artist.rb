@@ -8,7 +8,7 @@ class Artist
   end
 
   def songs
-    Songs.all{|x| x.artist == self}
+    Song.all{|x| x.artist == self}
   end
 
   def self.all
