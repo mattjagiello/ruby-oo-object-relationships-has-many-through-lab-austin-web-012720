@@ -1,6 +1,6 @@
 class Artist
   attr_reader :name
-  @@all = ][]
+  @@all = []
 
 
 end
