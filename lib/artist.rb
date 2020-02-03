@@ -9,6 +9,7 @@ class Artist
 
   def new_song(name, genre)
     Song.new(self, name, genre)
+  end
 
   def self.all
     @@all
